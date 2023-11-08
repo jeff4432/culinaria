@@ -1,0 +1,71 @@
+body {
+  background-image: url("img/janela1.jpg");
+  background-size: auto;
+  background-position: center center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  max-width 1200px;
+  margin: 1auto;
+}
+
+.login-container {
+  text-align: center;
+}
+
+.login-container > div {
+  display: inline-block;
+  width: 40%; /* Ajuste a largura conforme necessário */
+  vertical-align: top; /* Alinha as divs ao topo */
+  box-sizing: border-box; /* Considera as bordas e o padding no cálculo da largura */
+  padding: 15px;
+}
+
+.login-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #ba7bf5;
+  border-radius: 20px;
+  color: #121212;
+  display: block; /* Alterado para block para preencher toda a largura da div */
+  margin-bottom: 100px; /* Adiciona um espaçamento entre as divs */
+}
+
+.login-link:hover {
+  background-color: #b0a9ee;
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h2 {
+  color: #851111;
+  margin-top: 30px;
+}
+
+p {
+  color: #580404;
+  margin-bottom: 10px;
+}
+
+ul, ol {
+  color: #322b2b;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
